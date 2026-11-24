@@ -1,0 +1,36 @@
+main > h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 60px;
+    gap: 45px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+.item{
+    display: flex;
+    height: 380px;
+    width: 380px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    height: 170px;
+}
+
+.item-name{
+    font-size: 22px;
+    font-weight: 600;
+}
+.item-price {
+    font-size: 26px;
+    font-weight: 700;
+    color: #B8860B;
+}
